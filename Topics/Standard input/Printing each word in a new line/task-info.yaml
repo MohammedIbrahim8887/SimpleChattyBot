@@ -1,0 +1,71 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import java.util.Scanner
+
+    fun main() {
+        val scanner = Scanner(System.`in`)
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4451#comment
+status: Failed
+feedback:
+  message: "Compilation error\nmain.kt:5:23: error: unresolved reference. None of\
+    \ the following candidates is applicable because of receiver type mismatch: \n\
+    public operator fun <T, R> DeepRecursiveFunction<TypeVariable(T), TypeVariable(R)>.invoke(value:\
+    \ TypeVariable(T)): TypeVariable(R) defined in kotlin\n    val num_scanner = scanner(system.`in`)\n\
+    \                      ^\nmain.kt:5:31: error: unresolved reference: system\n\
+    \    val num_scanner = scanner(system.`in`)\n                              ^\n\
+    main.kt:22:5: error: overload resolution ambiguity: \npublic inline fun println(message:\
+    \ Any?): Unit defined in kotlin.io\npublic inline fun println(message: Boolean):\
+    \ Unit defined in kotlin.io\npublic inline fun println(message: Byte): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: Char): Unit defined in kotlin.io\n\
+    public inline fun println(message: CharArray): Unit defined in kotlin.io\npublic\
+    \ inline fun println(message: Double): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Float): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ Int): Unit defined in kotlin.io\npublic inline fun println(message: Long): Unit\
+    \ defined in kotlin.io\npublic inline fun println(message: Short): Unit defined\
+    \ in kotlin.io\n    println(num1)\n    ^\nmain.kt:23:5: error: overload resolution\
+    \ ambiguity: \npublic inline fun println(message: Any?): Unit defined in kotlin.io\n\
+    public inline fun println(message: Boolean): Unit defined in kotlin.io\npublic\
+    \ inline fun println(message: Byte): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Char): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ CharArray): Unit defined in kotlin.io\npublic inline fun println(message: Double):\
+    \ Unit defined in kotlin.io\npublic inline fun println(message: Float): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: Int): Unit defined in kotlin.io\n\
+    public inline fun println(message: Long): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Short): Unit defined in kotlin.io\n    println(num2)\n\
+    \    ^\nmain.kt:24:5: error: overload resolution ambiguity: \npublic inline fun\
+    \ println(message: Any?): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ Boolean): Unit defined in kotlin.io\npublic inline fun println(message: Byte):\
+    \ Unit defined in kotlin.io\npublic inline fun println(message: Char): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: CharArray): Unit defined in\
+    \ kotlin.io\npublic inline fun println(message: Double): Unit defined in kotlin.io\n\
+    public inline fun println(message: Float): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Int): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ Long): Unit defined in kotlin.io\npublic inline fun println(message: Short):\
+    \ Unit defined in kotlin.io\n    println(num3)\n    ^\nmain.kt:25:5: error: overload\
+    \ resolution ambiguity: \npublic inline fun println(message: Any?): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: Boolean): Unit defined in kotlin.io\n\
+    public inline fun println(message: Byte): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Char): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ CharArray): Unit defined in kotlin.io\npublic inline fun println(message: Double):\
+    \ Unit defined in kotlin.io\npublic inline fun println(message: Float): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: Int): Unit defined in kotlin.io\n\
+    public inline fun println(message: Long): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Short): Unit defined in kotlin.io\n    println(num4)\n\
+    \    ^\nmain.kt:26:5: error: overload resolution ambiguity: \npublic inline fun\
+    \ println(message: Any?): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ Boolean): Unit defined in kotlin.io\npublic inline fun println(message: Byte):\
+    \ Unit defined in kotlin.io\npublic inline fun println(message: Char): Unit defined\
+    \ in kotlin.io\npublic inline fun println(message: CharArray): Unit defined in\
+    \ kotlin.io\npublic inline fun println(message: Double): Unit defined in kotlin.io\n\
+    public inline fun println(message: Float): Unit defined in kotlin.io\npublic inline\
+    \ fun println(message: Int): Unit defined in kotlin.io\npublic inline fun println(message:\
+    \ Long): Unit defined in kotlin.io\npublic inline fun println(message: Short):\
+    \ Unit defined in kotlin.io\n    println(num5)\n    ^\n"
+  time: Mon, 11 Apr 2022 19:57:13 UTC
+record: -1
